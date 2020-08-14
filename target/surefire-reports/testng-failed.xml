@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [TestSuite]" parallel="classes">
+  <test thread-count="2" verbose="0" name="ChromeTest(failed)" parallel="classes">
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="testcases.demoblaze.purchaseProduct">
+        <methods>
+          <include name="DemoBlaze_TC02_purchaseProduct" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.demoblaze.purchaseProduct -->
+      <class name="testcases.demoblaze.viewProducts">
+        <methods>
+          <include name="DemoBlaze_TC01_ViewProducts" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.demoblaze.viewProducts -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
